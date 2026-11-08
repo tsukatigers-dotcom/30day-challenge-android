@@ -5,7 +5,7 @@ on:
   push:
     paths:
       - '.github/workflows/android.yml'
-      - 'downloadfile-3-1.zip'
+      - 'downloadfile-3-1-1.zip'
 
 jobs:
   build:
@@ -17,7 +17,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip downloadfile-3-1.zip -d project
+          unzip downloadfile-3-1-1.zip -d project
           test -f project/settings.gradle.kts
 
       - name: Setup Java
