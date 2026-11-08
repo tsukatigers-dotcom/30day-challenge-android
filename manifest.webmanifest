@@ -1,0 +1,24 @@
+{
+  "name": "30日間パフォーマンス強化",
+  "short_name": "30日トレーナー",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6f3",
+  "theme_color": "#10251f",
+  "description": "運動・食事・睡眠・コンディションを記録する個人用トレーナー",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
